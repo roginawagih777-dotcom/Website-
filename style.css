@@ -16,9 +16,6 @@ header {
     width: 100%;
     background-size: cover;
     background-position: center;
-}
-
-header.layout {
     background-color: var(--secondColor);
     display: flex;
     justify-content: center;
