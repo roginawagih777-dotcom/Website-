@@ -1,0 +1,89 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --hoverColor:#4C2365;
+    --mainColor:#7F5D99;
+    --secondColor:#C4A4DA;
+}
+
+header {
+    background-image: url(./images/photo\ 1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+header.layout {
+    background-color: var(--secondColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px
+}
+
+header.layout h1 {
+    font-size: 1.5em;
+    color: var(--mainColor);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header.layout button {
+    padding: 15px 20px;
+    font-size: 0.5em;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    color: var(--secondColor);
+}
+
+header.layout button:hover{
+    background-color: var(--secondColor);
+    color: var(--hoverColor);
+    scale: 1.2;
+}
+
+@media screen and (max-width:450px ){
+    header.layout {
+        font-size: 20px;
+    }
+    header.layout button {
+    font-size: 0.4em;
+}
+}
+
+
+section.body_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px 10%;
+}
+
+div.about {
+    width: 50%;
+}
+
+div.about  h2 {
+    font-size: 2em;
+    color: var(--mainColor);
+    margin-bottom: 10px;
+}
+
+div.about p {
+    font-size: 0.6em;
+    color: var(--secondColor);
+}
+
+section.body_section img {
+    width: 35%;
+    height: 250px;
+    border-radius: 0 20px ;
+}
