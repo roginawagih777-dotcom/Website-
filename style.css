@@ -78,7 +78,7 @@ div.about  h2 {
 }
 
 div.about p {
-    font-size: 0.6em;
+    font-size: 1em;
     color: var(--secondColor);
 }
 
